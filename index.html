@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>World Clock Project / Single Location</title>
+</head>
+<body>
+    <div class="container">
+        <h1>World Clock</br>🕰️</h1>
+
+        <select>
+            <option value="">Select a city</option>
+            <option value="">🇬🇧 London</option>
+            <option value="">🇸🇬 Singapore</option>
+            <option value="">🇩🇪 Munich</option>
+            <option value="">🇰🇷 Seoul</option>
+        </select>
+        <div class="city" id="sydney">
+            <div>
+            <h2>🇦🇺 Sydney</h2>
+            <div class="date"></div>
+            </div>
+            <div class="time"><small></small></div>
+        </div>
+        <div class="city" id="ho-chi-minh">
+            <div>
+            <h2>🇻🇳 Ho Chi Minh</h2>
+            <div class="date"></div>
+        </div>
+            <div class="time"><small></small></div>
+        </div>
+        <div class="city" id="los-angeles">
+            <div>
+            <h2>🇺🇸 Los Angeles</h2>
+            <div class="date"></div>
+        </div>
+            <div class="time"><small></small></div>
+        </div>
+    </div>
+    <footer>
+        This was coded with ❤ by Laura
+    </footer>
+     <script src="src/index.js"></script>
+</body>
+</html>
